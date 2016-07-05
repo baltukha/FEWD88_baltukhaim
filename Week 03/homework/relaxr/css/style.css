@@ -59,7 +59,13 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.nav ul {
+  list-style: none;
+}
 
+.nav a {
+  display: block;
+}
 
 
 

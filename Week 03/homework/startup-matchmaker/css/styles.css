@@ -1,0 +1,42 @@
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+header {
+  background: black;
+  padding: 5x;
+  overflow: hidden;
+}
+
+header .logo {
+  color: yellow;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+} 
+
+p.tagline{
+	background: grey;
+	color: red;
+}
