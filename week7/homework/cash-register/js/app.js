@@ -17,12 +17,24 @@ $(document).ready(function () {
 	$('#newEntry').sumbit(function (event){
 		event.preventDefault();
 		var input = $('#newEntry').val();
-		input = parseFloat('input');
-		$('#entries').append('<tr><td></td><td>NEW VALUE</td></tr>')
+		input = parseFloat(input);
+
+		appendItem(newItem);
+
+		function appendItem() {
+		$('#entries').append('<tr><td></td><td>NEW VALUE</td></tr>');
+
+		}
+		// $('#entries').append('<tr><td></td><td>NEW VALUE</td></tr>')
 		$('#total').html('input');
 		$('#newEntry').empty()
 		alert('submited')
 	})
 
+	function appendItem (item) {
+		$('#list').append('<li>' + item + '</li>');
+	}
+
 })
 
+// Need to work on inputing and updating number in total

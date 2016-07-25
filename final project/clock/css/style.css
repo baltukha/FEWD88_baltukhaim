@@ -22,14 +22,6 @@ body {
     bottom: 50%
     }
 
-#clockyA {
-    background-size: cover;
-    top: 0; 
-    left: 0; 
-    right: 50%; 
-    bottom: 50%
-}
-
 #clockB {
     background-image: url(http://d1vmp8zzttzftq.cloudfront.net/wp-content/uploads/2012/10/the-golden-gate-bridge-in-san-francisco-with-beautiful-blue-ocean-in-background-1600x1066.jpg); 
     background-size: cover;

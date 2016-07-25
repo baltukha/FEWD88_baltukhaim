@@ -36,7 +36,7 @@ $(document).ready(function() {
 		timeD.innerText = (hours - 7) + ":" + minutes + ":" + seconds + " " + am;
 
 		// find a way to account for diff time zones and var's //
-		// include more var's to account for diff time zones? //
+		// include more var's to account for diff time zones? Install plugin?//
 		
 		setInterval(showTime, 1000);
 
