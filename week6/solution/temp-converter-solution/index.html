@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Temp Converter</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<form>
+			<input id="temp" placeholder="enter temp" />
+			<p>Enter Unit</p>
+			<label for="F">&deg;F</label>
+			<input type="radio" name="unit" value="F" id="F"/>
+			<label for="C">&deg;C</label>
+			<input type="radio" name="unit" value="C" id="C" />
+			<input id="submit" type="submit" name="convert" value="convert" />
+		</form>
+		<p id="output"></p>
+		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

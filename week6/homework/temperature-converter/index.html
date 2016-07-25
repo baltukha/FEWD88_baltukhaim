@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
 	<title>Temperature Converter</title>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-
-	<script type="text/javascript" src="js/project.js"></script>
-</body>
+	</head>
+		<body>
+			<form>
+				<input id="input" placeholder="Input Temperature">
+				<label for="F">Farenheight</label>
+				<input type="radio" name="unit" value="Farenheight" id="F"/>
+				<label for="C">Celcius</label>
+				<input type="radio" name="unit" value="Celcius" id="C"/>
+				<input id="submit" type="submit" name="convert" value="Convert"/>
+			</form>
+			<p id="conversion"></p>
+			<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+			<script src="js/project.js"></script>
+		</body>
 </html>
+
